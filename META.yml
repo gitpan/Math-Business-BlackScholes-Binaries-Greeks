@@ -1,0 +1,26 @@
+---
+abstract: 'Sensitivity of the price of binary options'
+author:
+  - 'binary.com <perl@binary.com>'
+build_requires:
+  Test::Exception: 0
+  Test::More: 0
+  Test::Most: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.72, CPAN::Meta::Converter version 2.132140'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Math-Business-BlackScholes-Binaries-Greeks
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Math::Business::BlackScholes::Binaries: 0
+  Math::CDF: 0
+  perl: 5.006
+resources:
+  repository: https://github.com/binary-com/perl-Math-Business-Blackscholes-Binaries-Greeks.git
+version: 0.03
